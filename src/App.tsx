@@ -1,13 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box, Stack } from "@mui/system";
+import Searchbar from "./components/Searchbar/Searchbar";
+import Pagination from "./components/Pagination/Pagination";
+import ProductList from "./components/ProductsList/ProductList";
 
 function App() {
   return (
-    <div className="container">
-      <header className="header">
-        <h1>Product List App</h1>
-      </header>
+    <div>
+      <Box>
+      <Searchbar/>
+      <ProductList/>
+      <Pagination/>
+      </Box>
     </div>
   );
 }
