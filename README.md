@@ -16,14 +16,9 @@ Please reflect pagination and filtering in the address URL, so users can copy an
 
 https://reqres.in/api/products
 
-## Requirements
+## Built with
 
 React
 Typescript
-git
-github/gitlab/bitbucket
-
-## Nice to have
-
-Unit tests
-Redux/Context API or other state management library
+Redux
+MUI
